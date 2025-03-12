@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application/questions/BMI.dart';
+import 'package:flutter_application/questions/all.dart';
 import 'package:flutter_application/questions/question4.dart';
 import 'package:flutter_application/questions/question5.dart';
 import 'package:flutter_application/questions/question8.dart';
@@ -44,7 +45,7 @@ class SplashScreen extends StatelessWidget {
       splashTransition: SplashTransition.scaleTransition,
       animationDuration: Duration(milliseconds: 1000),
       pageTransitionType: PageTransitionType.fade,
-      nextScreen: Todo(),
+      nextScreen: TaskManager(),
     );
   }
 }
