@@ -13,7 +13,7 @@ import 'package:page_transition/page_transition.dart';
 
 void main() {
   runApp(MaterialApp(
-      debugShowCheckedModeBanner: false, home: Scaffold(body: SplashScreen())));
+      debugShowCheckedModeBanner: false, home: Scaffold(body: TaskManager())));
 }
 
 class SplashScreen extends StatelessWidget {
